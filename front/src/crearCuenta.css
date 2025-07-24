@@ -1,4 +1,3 @@
-
 html, body {
     background-color: rgb(10, 0, 20);
     margin: 0;
@@ -6,8 +5,15 @@ html, body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: normal;
     height: 100%;
+}
+
+h1{
+    font-size: 8vh;
+    color: aliceblue;
+    text-align: center;
+    align-self: baseline;
 }
 .marco {
     height: 50vh;
@@ -23,14 +29,4 @@ html, body {
     padding-top: 7vh;
     
     
-}
-
-
-.boton{
-    width: 25vw;
-    height: 8vh;
-    border-style: solid;
-    border-color: aqua;
-    border-width: 0.3vh;
-    font-size: 4vh;
 }
