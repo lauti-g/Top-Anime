@@ -1,12 +1,12 @@
-# Top-Anime
+# React + Vite
 
-en primera instacia, inicio este proyecto, donde incluyo react, que lo estoy aprendiendo a usar.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-mis objetivos con este proyecto son:
-	1- aprender un poco mas del dominio de JavaScript
-	2- aprender a verificar cuentas
-	3- aprender a guardar datos en base de datos
-	4- aprender a escribir readme.md
-	5- aprender en general todo lo que tiene que ver con la programacion que me encanta
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -1,0 +1,36 @@
+
+html, body {
+    background-color: rgb(10, 0, 20);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.marco {
+    height: 50vh;
+    width: 40vw;
+    border-color: aqua;
+    border-width: 0.2vh;
+    border-style: solid;
+    margin: 0;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    gap: 10vh;
+    padding-top: 7vh;
+    
+    
+}
+
+
+.boton{
+    width: 25vw;
+    height: 8vh;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 0.3vh;
+    font-size: 4vh;
+}
