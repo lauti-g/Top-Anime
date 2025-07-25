@@ -1,0 +1,32 @@
+html, body {
+    background-color: rgb(10, 0, 20);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    height: 100%;
+}
+
+h1{
+    font-size: 8vh;
+    color: aliceblue;
+    text-align: center;
+    align-self: baseline;
+}
+.marco {
+    height: 50vh;
+    width: 40vw;
+    border-color: aqua;
+    border-width: 0.2vh;
+    border-style: solid;
+    margin: 0;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    gap: 10vh;
+    padding-top: 7vh;
+    
+    
+}

@@ -1,13 +1,14 @@
 function Titulo() {
     return <h1>
-            TuTopAnime
+            Crear cuenta
             </h1>
 }
 
 function Marco() {
-    return  <div className="marco" >
-
-            </div>
+    return  (
+    <div className="marco" >
+        
+    </div>)
 }
 
 

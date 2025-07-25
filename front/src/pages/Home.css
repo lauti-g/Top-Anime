@@ -1,4 +1,3 @@
-
 html, body {
     background-color: rgb(10, 0, 20);
     margin: 0;
@@ -30,22 +29,4 @@ h1{
     padding-top: 7vh;
     
     
-}
-
-
-.boton{
-    width: 25vw;
-    height: 8vh;
-    border-style: solid;
-    border-color: aqua;
-    border-width: 0.3vh;
-    font-size: 4vh;
-    cursor: pointer;
-}
-
-.boton:hover{
-    background-color: aquamarine;
-}
-.boton:active {
-    transform: scale(0.95);
 }

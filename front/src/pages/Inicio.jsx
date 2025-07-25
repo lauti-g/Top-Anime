@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './inicio.css'
+import './Inicio.css'
 
 function Boton({texto}) {
     return <button  className="boton">
@@ -14,9 +14,9 @@ function Titulo() {
 
 function Marco() {
     return  <div className="marco" >
-                <Boton texto = "Crear cuenta"/>
-                <Boton texto = "Iniciar sesion"/>
-                <Boton texto = "Continuar como invitado"/>
+                <Link to="/CrearCuenta" className='link'>Crear Cuenta</Link>
+                <Link to="/IniciarSesion" className='link'>Iniciar sesion</Link>
+                <Link to="/Home" className='link'>Invitado</Link>
             </div>
 }
 function Inicio(){
